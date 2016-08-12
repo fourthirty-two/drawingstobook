@@ -1,7 +1,7 @@
 .hero {
   $large-screen: 50em !default;
   align-items: center;
-  background: image-url("background-image.png");
+  background: #ccc; //image-url("background-image.png");
   background-position: right;
   background-size: none;
   display: flex;
@@ -12,10 +12,11 @@
   @include media($large-screen) {
     background-position: left;
     background-size: cover;
-    justify-content: flex-end;
+    //justify-content: flex-end;
   }
 
   .hero-content {
+    @include outer-container;
     max-width: 20em;
     text-align: center;
 

@@ -4,13 +4,16 @@
   "patterns/hero-unit",
   "patterns/icon-bullet-points",
   "components/modal",
-  "components/parallax"
+  "components/parallax",
+  "type/traditional"
 ;
 
 // body reset
+* {
+    box-sizing: border-box;
+}
 body {
   margin: 0px;
-  padding: 0px;
 }
 
 // Pages

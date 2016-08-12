@@ -46,9 +46,12 @@ layout: default
         <script src="{{ site.data.global.url }}/js/respond.min.js"></script>
     <![endif]-->
 
+    <link href='//fonts.googleapis.com/css?family=Radley:400,400italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
   </head>
 
-  <body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}">
+  <body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %} type-system-traditional">
 
     <!-- Header bar -->
     <header class="centered-navigation" role="banner">
@@ -76,7 +79,23 @@ layout: default
     <div class="hero">
       <div class="hero-content">
         <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="Logo Image" class="hero-logo">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni modi doloremque excepturi laudantium maxime explicabo cumque deleniti voluptate deserunt.</p>
+        <p>
+          <!-- modal -->
+          <div class="modal">
+            <label for="modal-1">
+              <div class="modal-trigger">Click to download</div>
+            </label>
+            <input class="modal-state" id="modal-1" type="checkbox" />
+            <div class="modal-fade-screen">
+              <div class="modal-inner">
+                <div class="modal-close" for="modal-1"></div>
+                <h1>Enter email</h1>
+                <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
+                <p class="modal-content">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam. Body text lorem ipsum dolor ipsum dolor sit sit possimus amet.</p>
+              </div>
+            </div>
+          </div>
+        </p>
       </div>
     </div>
 
@@ -117,32 +136,19 @@ layout: default
 
       </section>
 
-      <section>
 
-        <div id="js-parallax-window" class="parallax-window">
-          <div class="parallax-static-content">
 
-            <!-- modal -->
-            <div class="modal">
-              <label for="modal-1">
-                <div class="modal-trigger">Click for Modal</div>
-              </label>
-              <input class="modal-state" id="modal-1" type="checkbox" />
-              <div class="modal-fade-screen">
-                <div class="modal-inner">
-                  <div class="modal-close" for="modal-1"></div>
-                  <h1>Modal Title</h1>
-                  <p class="modal-intro">Intro text lorem ipsum dolor sit ametm, quas, eaque facilis aliquid cupiditate tempora cumque ipsum accusantium illo modi commodi  minima.</p>
-                  <p class="modal-content">Body text lorem ipsum dolor ipsum dolor sit sit possimus amet, consectetur adipisicing elit. Itaque, placeat, explicabo, veniam quos aperiam molestias eriam molestias molestiae suscipit ipsum enim quasi sit possimus quod atque nobis voluptas earum odit accusamus quibusdam. Body text lorem ipsum dolor ipsum dolor sit sit possimus amet.</p>
-                </div>
-              </div>
-            </div>
+      <div id="js-parallax-window" class="parallax-window">
+        <div class="parallax-static-content">
 
-          </div>
-          <div id="js-parallax-background" class="parallax-background"></div>
+          <p>
+            Testimonial
+          </p>
+
         </div>
+        <div id="js-parallax-background" class="parallax-background"></div>
+      </div>
 
-      </section>
 
     </main>
 
