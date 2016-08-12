@@ -1,0 +1,20 @@
+@import
+  "patterns/centered-nav",
+  "patterns/footer",
+  "patterns/hero-unit",
+  "patterns/icon-bullet-points",
+  "components/modal",
+  "components/parallax"
+;
+
+// body reset
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+// Pages
+main {
+  @include outer-container;
+  section { @include span-columns(12); }
+}

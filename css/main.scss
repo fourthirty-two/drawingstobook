@@ -1,0 +1,12 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Design imports
+@import
+  "../bower_components/bourbon/app/assets/stylesheets/bourbon.scss",
+  "../bower_components/neat/app/assets/stylesheets/neat.scss",
+  "../bower_components/bitters/core/base.scss",
+  "style"
+;
