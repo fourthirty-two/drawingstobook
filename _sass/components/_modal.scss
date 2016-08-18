@@ -33,6 +33,7 @@
   }
 
   .modal-trigger {
+    display: block;
     padding: 0.8em 1em;
     @extend button;
     text-transform: uppercase;

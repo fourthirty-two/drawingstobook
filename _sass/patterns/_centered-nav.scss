@@ -25,7 +25,6 @@
 
   .mobile-logo {
     display: inline;
-    float: left;
     max-height: $centered-navigation-height;
     padding-left: $centered-navigation-padding;
 
@@ -67,6 +66,7 @@
     @include clearfix;
     position: relative;
     z-index: 999;
+    text-align: center;
   }
 
   ul.centered-navigation-menu {
@@ -103,7 +103,6 @@
     line-height: $centered-navigation-height;
     overflow: hidden;
     padding-right: $centered-navigation-submenu-padding;
-    text-align: right;
     width: 100%;
     z-index: 9999;
 
