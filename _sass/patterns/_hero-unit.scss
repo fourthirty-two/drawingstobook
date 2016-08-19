@@ -1,7 +1,7 @@
 .hero {
   $large-screen: 50em !default;
   align-items: center;
-  background: #ccc; //image-url("background-image.png");
+  // background: #ccc; //image-url("background-image.png");
   background-position: right;
   background-size: none;
   display: flex;
@@ -32,6 +32,10 @@
         @include span-columns(6);
       }
 
+    }
+
+    .hero-left h1 {
+      text-transform: uppercase;
     }
 
   }

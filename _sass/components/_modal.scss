@@ -20,6 +20,7 @@
   label {
     cursor: pointer;
     margin-bottom: 0;
+    text-align: center;
   }
 
   label img {
@@ -33,10 +34,10 @@
   }
 
   .modal-trigger {
-    display: block;
-    padding: 0.8em 1em;
+    padding: 2em;
     @extend button;
     text-transform: uppercase;
+    @include margin(null auto);
   }
 
   .modal-fade-screen { // overlay
