@@ -9,8 +9,6 @@
 
   <body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %} type-system-traditional">
 
-    {% include header-bar-branded.html %}
-
     {{content}}
 
   </body>
