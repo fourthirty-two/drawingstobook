@@ -2,8 +2,6 @@
 layout: default
 ---
 
-  <body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %} type-system-traditional">
-
     <!-- Header bar -->
     <header class="centered-navigation" role="banner">
       <div class="centered-navigation-wrapper">
@@ -189,7 +187,3 @@ layout: default
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script src="{{ site.data.global.url }}/js/modal.js"></script>
-
-  </body>
-
-</html>
