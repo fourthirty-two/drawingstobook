@@ -29,9 +29,8 @@
     padding-left: $centered-navigation-padding;
 
     img {
-      max-height: $centered-navigation-height;
-      //opacity: 0.6;
-      padding: 0.8em 0;
+      height: $centered-navigation-height;
+      @include padding(0.8em 0 0 0);
     }
 
     @include media($horizontal-bar-mode) {
@@ -140,8 +139,7 @@
 
   .logo img {
     margin-bottom: -$centered-navigation-logo-height / 2;
-    max-height: $centered-navigation-logo-height + 1.5;
-    //opacity: 0.6;
+    height: $centered-navigation-logo-height + 1;
   }
 
   // Sub menus
