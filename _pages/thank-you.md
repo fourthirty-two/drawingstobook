@@ -1,7 +1,7 @@
 ---
-layout: landing-page
+layout: typ
 title: Thanks
-permalink: /about/
+permalink: /get-bookmaking/
 ---
 Thanks for downloading!
 =======================
