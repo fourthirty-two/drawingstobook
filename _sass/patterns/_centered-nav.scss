@@ -17,7 +17,7 @@
 
   background-color: $centered-navigation-background;
   border-bottom: 1px solid darken($centered-navigation-background, 6%);
-  min-height: $centered-navigation-height;
+  min-height: $centered-navigation-height + 50;
   width: 100%;
   z-index: 9999;
 
@@ -65,7 +65,13 @@
     @include clearfix;
     position: relative;
     z-index: 999;
+    top: 30px;
     text-align: center;
+
+    @include media(max-width 769px) {
+      top: 0px;
+    }
+
   }
 
   ul.centered-navigation-menu {
