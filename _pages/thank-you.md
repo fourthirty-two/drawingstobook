@@ -1,9 +1,11 @@
 ---
-layout: typ
+layout: page
 title: Thanks
 permalink: /get-bookmaking/
 ---
 Thanks for downloading!
 =======================
 
-Your thing will be there shortly.
+IMPORTANT: Your "Essential Digital Book Making Tool List" is on its way! (Please allow 10-15 minutes for delivery).
+
+{% include course-banner.html %}
