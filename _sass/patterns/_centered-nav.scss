@@ -144,7 +144,7 @@
   }
 
   .logo img {
-    margin-bottom: -$centered-navigation-logo-height / 2;
+    margin-bottom: -$centered-navigation-logo-height + 1.2;
     height: $centered-navigation-logo-height + 1;
   }
 
