@@ -36,7 +36,7 @@
   .modal-trigger {
     padding: 2em 4em;
     @extend button;
-    @include margin(null auto);
+    @include margin(20px auto 40px);
 
     > h2 {
       margin-bottom: 0px;
