@@ -8,8 +8,6 @@ includes_dir: _includes
 collections:
   posts:
     output:   true
-  pages:
-    output:   true
 
 # Handling Reading
 safe:         false

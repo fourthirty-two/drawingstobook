@@ -3,7 +3,7 @@ layout: default
 ---
 {% include header-bar-branded.html %}
 
-<div class="hero">
+<div class="hero" {% if page.banner-color %}style="background:{{ page.banner-color }}"{% endif %} >
   <div class="hero-content">
 
     {% if page.layout-class == "hero-signup" %}
@@ -16,9 +16,9 @@ layout: default
         <h1 class="hidden-lg">
           {{ page.title }}
         </h1>
-
-        <img src="https://placehold.it/600x400" alt="">
-
+        {% if page.image %}
+        <img src="{{ data.global.url }}/{{ page.image }}" alt="image">
+        {% endif %}
         <p>
 
           {% if page.signup %}
@@ -77,28 +77,32 @@ layout: default
 
     {% else %}
 
-    <h1 >
-      {{ page.title }}
-    </h1>
+    <div class="hero-plain">
 
-    {% if page.sub-title %}
-    <h2>
-      {{ page.sub-title }}
-    </h2>
-    {% endif %}
+      <h1>
+        {{ page.title }}
+      </h1>
 
-    {% if page.signup %}
+      {% if page.sub-title %}
+      <h2>
+        {{ page.sub-title }}
+      </h2>
+      {% endif %}
+
+      {% if page.signup %}
       {% include {{ page.signup }}.html %}
-    {% endif %}
+      {% endif %}
 
-    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="Logo Image" class="hero-logo">
-
-    {% endif %}
+      <img src="{{ data.global.url }}/{{ page.image }}" alt="Logo Image" class="hero-logo" style="height:370px;">
 
     </div>
 
+    {% endif %}
+
   </div>
 
-  {{ content }}
+</div>
+
+{{ content }}
 
 {% include footer.html %}
