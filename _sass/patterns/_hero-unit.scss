@@ -33,6 +33,15 @@
       text-align: center;
     }
 
+    // plain version
+    .hero-plain {
+      text-align: center;
+    }
+    .hero-logo {
+      display: block;
+      @include margin(0 auto);
+    }
+
   }
 
 }

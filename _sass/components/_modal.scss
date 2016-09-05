@@ -36,7 +36,7 @@
   .modal-trigger {
     padding: 2em 4em;
     @extend button;
-    @include margin(null auto);
+    @include margin(20px auto 40px);
 
     > h2 {
       margin-bottom: 0px;
@@ -173,8 +173,9 @@
   font-weight: 700 !important;
   font-size: 24px !important;
   text-transform: uppercase;
-  color: brown !important;
-  background-color: gold !important;
+  color: #fff !important;
+  background-color: $action-color !important;
+  border: 1px solid green !important;
 }
 
 // Based on code by Kasper Mikiewicz

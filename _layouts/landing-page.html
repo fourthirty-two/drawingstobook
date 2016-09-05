@@ -3,6 +3,95 @@ layout: default
 ---
 {% include header-bar-branded.html %}
 
-  {{ content }}
+<div class="hero" {% if page.banner-color %}style="background:{{ page.banner-color }}"{% endif %} >
+  <div class="hero-content">
+
+    {% if page.layout-class == "hero-signup" %}
+
+    <div class="hero-signup">
+
+      <div class="hero-left">
+
+        <!-- on mobile -->
+        <h1 class="hidden-lg">
+          {{ page.title }}
+        </h1>
+        {% if page.image %}
+        <img src="{{ data.global.url }}/{{ page.image }}" alt="image">
+        {% endif %}
+        <p>
+
+          {% if page.signup %}
+            {% include {{ page.signup }}.html %}
+          {% endif %}
+
+        </p>
+
+      </div>
+
+      <div class="hero-right">
+
+        <h1 class="hidden-xs">
+          {{ page.title }}
+        </h1>
+        <h2>
+          {{ page.sub-title }}
+        </h2>
+
+        {% if page.signup == "tool-list-download" %}
+        {% for details in site.data.details %}
+
+        <div class="comment">
+          <div class="comment-image">
+            <img src="{{ site.data.global.url }}/images/checkmark.png">
+          </div>
+          <div class="comment-content">
+            <h1>
+              {{ details.title }}
+            </h1>
+            <p>
+              {{ details.description }}
+            </p>
+          </div>
+        </div>
+
+        {% endfor %}
+        {% endif %}
+
+      </div>
+
+     </div><!-- /hero-signup -->
+
+    {% else %}
+
+    <div class="hero-plain">
+
+      <h1>
+        {{ page.title }}
+      </h1>
+
+      {% if page.sub-title %}
+      <h2>
+        {{ page.sub-title }}
+      </h2>
+      {% endif %}
+
+      {% if page.signup %}
+      {% include {{ page.signup }}.html %}
+      {% endif %}
+
+      {% if page.image %}
+      <img src="{{ data.global.url }}/{{ page.image }}" alt="Logo Image" class="hero-logo" style="height:370px;">
+      {% endif %}
+      
+    </div>
+
+    {% endif %}
+
+  </div>
+
+</div>
+
+{{ content }}
 
 {% include footer.html %}
