@@ -38,38 +38,25 @@ layout: default
           {{ page.sub-title }}
         </h2>
 
-        <div class="comment">
-          <div class="comment-image">
-            <img src="{{ site.data.global.url }}/images/checkmark.png">
-          </div>
-          <div class="comment-content">
-            <h1>First Comment Title or Author</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
-            <p class="comment-detail">Date or details about this post</p>
-          </div>
-        </div>
+        {% if page.signup == "tool-list-download" %}
+        {% for details in site.data.details %}
 
         <div class="comment">
           <div class="comment-image">
             <img src="{{ site.data.global.url }}/images/checkmark.png">
           </div>
           <div class="comment-content">
-            <h1>First Comment Title or Author</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
-            <p class="comment-detail">Date or details about this post</p>
+            <h1>
+              {{ details.title }}
+            </h1>
+            <p>
+              {{ details.description }}
+            </p>
           </div>
         </div>
 
-        <div class="comment">
-          <div class="comment-image">
-            <img src="{{ site.data.global.url }}/images/checkmark.png">
-          </div>
-          <div class="comment-content">
-            <h1>Another One</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
-            <p class="comment-detail">Date or details about this post</p>
-          </div>
-        </div>
+        {% endfor %}
+        {% endif %}
 
       </div>
 
