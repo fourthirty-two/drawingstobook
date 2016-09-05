@@ -2,11 +2,10 @@
 layout: page
 title: The essential digital book making tool list
 sub-title: Now You Can Make A Children's Book Without Expensive Software!
-layout-class: hero-signup
 #banner-color: "darkgray"
 image: images/sketchpad.jpg
-signup: tool-list-download
-#button-text: Click here!
+signup: storyboard-layout-tripwire
+button-text: Click here!
 category: lp
 ---
 Thanks for downloading!
