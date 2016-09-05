@@ -1,0 +1,23 @@
+// Show/hide elements on mobile or desktop
+$mobile-max-width: max-width 769px;
+
+// hide on desktop
+.hidden-lg {
+  display: none;
+
+  @include media($mobile-max-width) {
+    display: block;
+  }
+
+}
+
+// hide on mobile
+.hidden-xs {
+
+  @include media($mobile-max-width) {
+    display: none;
+  }
+
+  display: block;
+
+}
