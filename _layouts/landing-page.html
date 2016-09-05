@@ -80,8 +80,10 @@ layout: default
       {% include {{ page.signup }}.html %}
       {% endif %}
 
+      {% if page.image %}
       <img src="{{ data.global.url }}/{{ page.image }}" alt="Logo Image" class="hero-logo" style="height:370px;">
-
+      {% endif %}
+      
     </div>
 
     {% endif %}
