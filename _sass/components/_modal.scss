@@ -10,6 +10,7 @@
   $medium-screen: 40em !default;
   $large-screen: 53.75em !default;
   $base-font-color: $dark-gray !default;
+  $modal-button-color: #f28015;
   $modal-padding: 3em;
   $modal-background: $base-background-color;
   $modal-close-color: $light-gray;
@@ -37,12 +38,17 @@
     padding: 2em 4em;
     @extend button;
     @include margin(20px auto 40px);
+    background-color: $modal-button-color;
 
     > h2 {
       margin-bottom: 0px;
       font-weight: 600;
       text-transform: uppercase;
       white-space: normal;
+    }
+
+    &:hover {
+      background-color: lighten($modal-button-color, 10%);
     }
 
   }
