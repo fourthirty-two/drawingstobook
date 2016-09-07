@@ -10,7 +10,7 @@
   $medium-screen: 40em !default;
   $large-screen: 53.75em !default;
   $base-font-color: $dark-gray !default;
-  $modal-button-color: #f28015;
+  $modal-button-color: #ffb400;
   $modal-padding: 3em;
   $modal-background: $base-background-color;
   $modal-close-color: $light-gray;
@@ -38,7 +38,8 @@
     padding: 2em 4em;
     @extend button;
     @include margin(20px auto 40px);
-    background-color: $modal-button-color;
+    @include background(linear-gradient(lighten($modal-button-color, 15%), $modal-button-color) left repeat);
+    border: 1px solid $modal-button-color;
 
     > h2 {
       margin-bottom: 0px;
