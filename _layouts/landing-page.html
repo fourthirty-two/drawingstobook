@@ -17,7 +17,7 @@ layout: default
           {{ page.title }}
         </h1>
         {% if page.image %}
-        <img src="{{ data.global.url }}/{{ page.image }}" alt="image">
+        <img class="hidden-xs" src="{{ data.global.url }}/{{ page.image }}" alt="image">
         {% endif %}
         <p>
 
@@ -83,7 +83,7 @@ layout: default
       {% if page.image %}
       <img src="{{ data.global.url }}/{{ page.image }}" alt="Logo Image" class="hero-logo" style="height:370px;">
       {% endif %}
-      
+
     </div>
 
     {% endif %}
