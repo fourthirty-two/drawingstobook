@@ -23,12 +23,11 @@
     }
 
     // Heading
-    .hero-right h1,
-    .hero-left h1.hidden-lg {
+    h1.hero-title {
       text-transform: uppercase;
     }
     // center on mobile
-    .hero-left h1.hidden-lg {
+    h1.hidden-lg.hero-title {
       margin-bottom: 1em;
       text-align: center;
     }
@@ -42,6 +41,17 @@
       @include margin(0 auto);
     }
 
+
   }
 
+}
+
+// **
+// co-ordinate hero title with category name
+// just add `.category-{{ page.category }} .hero-title`
+// then fill out color needed
+// **
+
+.category-tool-list .hero-title {
+  color: $green;
 }
