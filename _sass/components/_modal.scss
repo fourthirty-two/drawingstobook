@@ -52,6 +52,10 @@
       background-color: lighten($modal-button-color, 10%);
     }
 
+    @include media($mobile-max-width) {
+      padding: 1em;
+    }
+
   }
 
   .modal-fade-screen { // overlay
