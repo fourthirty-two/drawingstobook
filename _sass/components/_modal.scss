@@ -38,7 +38,7 @@
     padding: 2em 4em;
     @extend button;
     @include margin(20px auto 40px);
-    @include background(linear-gradient(lighten($modal-button-color, 15%), $modal-button-color) left repeat);
+    @include background(linear-gradient(lighten($modal-button-color, 20%), $modal-button-color) left repeat);
     border: 1px solid $modal-button-color;
 
     > h2 {
