@@ -13,11 +13,11 @@ layout: default
       <div class="hero-left">
 
         <!-- on mobile -->
-        <h1 class="hidden-lg">
+        <h1 class="hidden-lg hero-title">
           {{ page.title }}
         </h1>
         {% if page.image %}
-        <img src="{{ data.global.url }}/{{ page.image }}" alt="image">
+        <img class="hidden-xs" src="{{ data.global.url }}/{{ page.image }}" alt="image">
         {% endif %}
         <p>
 
@@ -31,7 +31,11 @@ layout: default
 
       <div class="hero-right">
 
-        <h1 class="hidden-xs">
+        <p class="type">
+          Free Download
+        </p>
+
+        <h1 class="hidden-xs hero-title">
           {{ page.title }}
         </h1>
         <h2>
@@ -83,7 +87,7 @@ layout: default
       {% if page.image %}
       <img src="{{ data.global.url }}/{{ page.image }}" alt="Logo Image" class="hero-logo" style="height:370px;">
       {% endif %}
-      
+
     </div>
 
     {% endif %}
