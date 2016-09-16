@@ -27,6 +27,7 @@ $flashes: (
 
     .flash-message {
       @include outer-container(800px);
+      @include padding(null 1em);
     }
 
   }
