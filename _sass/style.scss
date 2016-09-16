@@ -26,5 +26,8 @@ body {
 main {
   @include outer-container(800px);
   margin-bottom: 40px;
-  section { @include span-columns(12); }
+  section {
+    @include span-columns(12);
+    padding: 1em;
+  }
 }
