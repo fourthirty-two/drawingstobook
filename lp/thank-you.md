@@ -6,6 +6,7 @@ sub-title: Now You Can Make A Children's Book Without Expensive Software!
 #image: images/sketchpad.jpg
 signup: storyboard-layout-tripwire
 button-text: Click here!
+#purchase-link: https://github.com/fourthirty-two/drawingstobook
 category: lp
 ---
 Thanks for downloading!
