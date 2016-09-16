@@ -24,5 +24,10 @@ $flashes: (
         color: shade($color, 90%);
       }
     }
+
+    .flash-message {
+      @include outer-container(800px);
+    }
+
   }
 }
