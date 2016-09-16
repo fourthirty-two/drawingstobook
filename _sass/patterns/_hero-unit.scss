@@ -1,7 +1,6 @@
 .hero {
   $large-screen: 50em !default;
   align-items: center;
-  min-height: 25em;
   padding: 2em;
 
   .hero-content {
@@ -49,6 +48,17 @@
     }
 
 
+  }
+
+}
+
+// Set min-height for hero when it is a sign-up
+// determined by the `layout-class: hero-signup` in the front matter
+// creates the class `.layout-{{ page.layout-class }}` on the `<body>`
+.layout-hero-signup {
+
+  .hero {
+    min-height: 25em;
   }
 
 }
