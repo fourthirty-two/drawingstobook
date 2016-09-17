@@ -1,0 +1,12 @@
+.layout-thank-you-page {
+
+  .hero-plain {
+    @include outer-container(800px);
+
+    h2 {
+      color: #fff;
+    }
+
+  }
+
+}
