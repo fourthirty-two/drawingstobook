@@ -8,7 +8,7 @@ banner-color: '#404041'
 #image: images/sketchpad.jpg
 signup: storyboard-layout-tripwire
 button-text: Download lesson now >>
-#purchase-link: https://github.com/fourthirty-two/drawingstobook
+purchase-link: https://github.com/fourthirty-two/drawingstobook
 category: lp
 ---
 Thanks for downloading!

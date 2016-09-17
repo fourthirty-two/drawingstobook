@@ -11,3 +11,17 @@
     white-space: normal;
   }
 }
+
+// red button on plain hero
+.hero-plain {
+
+  .btn.promo-btn {
+    background-color: red;
+
+    &:hover {
+      background-color: darkred;
+    }
+
+  }
+
+}

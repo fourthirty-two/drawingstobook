@@ -8,9 +8,10 @@
 {% endcomment %}
 
 <!-- button -->
-<div class="btn promo-btn">
+<a href="{{ page.purchase-link }}" target="_blank">
 
-  <a href="{{ page.purchase-link }}" target="_blank">
+  <div class="btn promo-btn">
+
 
     <h2>
       {% if page.button-text %}
@@ -20,7 +21,6 @@
       {% endif %}
     </h2>
 
-  </a>
+  </div>
 
-
-</div><!-- /button -->
+</a><!-- /button -->
