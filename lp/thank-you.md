@@ -1,6 +1,6 @@
 ---
 layout: page
-alert: 'IMPORTANT: Your "212 Blog Post Ideas" is on its way! (Please allow 10-15 minutes for delivery). Do NOT attempt to implement your blog post ideas though, until you read the page below.'
+alert: 'IMPORTANT: Your "Beginners Book Making Tool List" is on its way! (Please allow 10-15 minutes for delivery). Get help implementing your book ideas, read the page below.'
 title: The essential digital book making tool list
 sub-title: Now You Can Make A Children's Book Without Expensive Software!
 #banner-color: "darkgray"
