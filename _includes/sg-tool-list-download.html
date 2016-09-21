@@ -1,0 +1,23 @@
+{% comment %}
+
+  This is the sign up button that opens the app.simplegoods.co download window
+  to use this add in the post front matter:
+
+  signup: tool-list-download (or whatever other one you create)
+
+{% endcomment %}
+
+<!-- big ol' button -->
+<div class="big-btn">
+
+  <!-- button -->
+  <script type="text/javascript" src="https://app-cdn.simplegoods.co/assets/external/embed.js"></script>
+  <a href="https://app.simplegoods.co/i/MQJXZSQY" class="btn-trigger">
+    {% if page.button-text %}
+    {{ page.button-text }}
+    {% else %}
+    Click to download
+    {% endif %}
+  </a>
+
+</div><!-- /big ol' button -->
