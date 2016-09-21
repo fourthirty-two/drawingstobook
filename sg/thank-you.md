@@ -6,9 +6,9 @@ sub-title: A Duplicatable System To Quickly Crank Out Share-Worthy, Clickable Bl
 layout-class: thank-you-page
 banner-color: '#404041'
 #image: images/sketchpad.jpg
-signup: storyboard-layout-tripwire
+signup: sg-storyboard-layout-tripwire
 button-text: Download lesson now >>
-purchase-link: https://github.com/fourthirty-two/drawingstobook
+#purchase-link: https://github.com/fourthirty-two/drawingstobook (do I need this anymore?)
 category: lp
 ---
 "I want to make a children's book...  I just don't know how to start!"
