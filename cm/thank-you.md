@@ -56,18 +56,6 @@ Best of all, the process is nearly 100% turnkey thanks to our...
 7 "Fill-In-The-Blank" Blog Post Templates
 =========================================
 
-![lesson image](http://placehold.it/800x300)
-
-This part wasn't easy, but it sure was worth it...
-
-We had our editorial team go back comb through our sites and our stats and evaluate our best, most popular blog posts.
-
-They analyzed the ones with the most shares, the most comments, the most likes and the highest engagement in all of our businesses (not just DigitalMarketer) to see if there was a pattern.
-
-They found that out of over 1,800 blog posts... **there were only 7 types that worked** consistently _(and I mean they REALLY worked.)_
-
-Next, we had those blog post types templatized and created **step-by-step instructions on how to find, write or outsource the content**, _how to put them together_, what types of calls to action to use, and "when" and "where" to deploy them.
-
 The result was these 7 proven blog post templates:
 
 * **TEMPLATE #1: "The Content Aggregator"** allows you to leverage other people's content to create a proven winner before you even press the "Publish" button.
