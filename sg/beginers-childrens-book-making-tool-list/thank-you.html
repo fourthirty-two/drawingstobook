@@ -8,7 +8,7 @@ banner-color: '#404041'
 #image: images/sketchpad.jpg
 signup: sg-storyboard-layout-tripwire
 button-text: Download this lesson now >>
-#purchase-link: https://github.com/fourthirty-two/drawingstobook (do I need this anymore?)
+purchase-link: https://app.simplegoods.co/i/UDJVBCTP
 category: lp
 permalink: sg/story-helper
 ---
@@ -112,7 +112,7 @@ permalink: sg/story-helper
 
 {% include sg-storyboard-layout-tripwire.html %}
 
-<a href="https://github.com/fourthirty-two/drawingstobook">
+<a href="{{ page.purchase-link }}">
   <h2>
     Add To Cart - Just $7
   </h2>
@@ -148,13 +148,16 @@ permalink: sg/story-helper
 
 <img src="http://placehold.it/800x300" alt="lesson image">
 
-{% include storyboard-layout-tripwire.html %}
+{% include sg-storyboard-layout-tripwire.html %}
 
-<a href="https://github.com/fourthirty-two/drawingstobook">
+<a href="{{ page.purchase-link }}">
   <h2>
     Add To Cart - Just $7
   </h2>
 </a>
 
-[No Thank You, I Just Want To Download The 212 Blog Post Ideas](https://github.com/fourthirty-two/drawingstobook)
------------------------------------------------------------------------------------------------------------------
+<a href="{{ site.data.global.url }}/sg/story-helper-noty">
+  <h2>
+    No Thank You, I Just Want To Download The Beginners Book Making Tool List
+  </h2>
+</a>
