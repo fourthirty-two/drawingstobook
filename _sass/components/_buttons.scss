@@ -3,10 +3,80 @@
   @extend button;
   @include margin(20px auto 40px);
 
-  > h2 {
+  h2 {
     margin-bottom: 0px !important;
     font-weight: 600 !important;
+    color: #fff;
     text-transform: uppercase;
     white-space: normal;
   }
+}
+
+// red button on plain hero
+.hero-plain {
+
+  .btn.promo-btn {
+    background-color: red;
+
+    &:hover {
+      background-color: darkred;
+    }
+
+  }
+
+}
+
+// Giant orange download button used on tool-list download
+// wrapped in the `.big-btn` div to center object
+.big-btn {
+  $base-border-color: #dcdcdc !default;
+  $base-border-radius: 3px !default;
+  $base-background-color: #fff !default;
+  $base-font-size: 1em !default;
+  $base-line-height: 1.5em !default;
+  $action-color: #477dca !default;
+  $dark-gray: #333 !default;
+  $light-gray: #ddd !default;
+  $medium-screen: 40em !default;
+  $large-screen: 53.75em !default;
+  $base-font-color: $dark-gray !default;
+  $modal-button-color: #ffb400;
+  $modal-padding: 3em;
+  $modal-background: $base-background-color;
+  $modal-close-color: $light-gray;
+  $modal-image-height: 135px;
+  $modal-image-width: $modal-image-height;
+  $modal-trigger-image-width: 300px;
+
+  text-align: center;
+
+  .btn-trigger {
+    padding: 2em 4em;
+    @extend button;
+    @include margin(20px auto 40px);
+    @include background(linear-gradient(lighten($modal-button-color, 10%), orangered) left repeat);
+    border: 2px solid darkorange;
+
+    font-family: 'Radley', serif;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-transform: uppercase;
+    white-space: normal;
+    line-height: 1.25em;
+    margin-bottom: 0.9em;
+
+    @include media($medium-screen) {
+      font-size: 1.5em;
+    }
+
+    &:hover {
+      background-color: lighten($modal-button-color, 10%);
+    }
+
+    @include media($mobile-max-width) {
+      padding: 1em;
+    }
+
+  }
+
 }

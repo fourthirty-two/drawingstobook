@@ -5,12 +5,15 @@
   "patterns/hero-unit",
   "patterns/icon-bullet-points",
   "patterns/comment",
+  "patterns/thank-you-page",
   "components/modal",
   "components/parallax",
   "components/responsive-video",
   "components/responsive-utilities",
   "components/buttons",
-  "type/traditional"
+  "components/alert",
+  "type/traditional",
+  "type/blockquote"
 ;
 
 // body reset
@@ -25,5 +28,8 @@ body {
 main {
   @include outer-container(800px);
   margin-bottom: 40px;
-  section { @include span-columns(12); }
+  section {
+    @include span-columns(12);
+    padding: 1em;
+  }
 }

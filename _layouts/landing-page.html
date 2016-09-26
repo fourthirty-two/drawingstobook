@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+{% if page.alert %}
+
+{% include page-element-alert-headline.html %}
+
+{% endif %}
+
 {% include header-bar-branded.html %}
 
 <div class="hero" {% if page.banner-color %}style="background:{{ page.banner-color }}"{% endif %} >
@@ -47,7 +53,7 @@ layout: default
 
         <div class="comment">
           <div class="comment-image">
-            <img src="{{ site.data.global.url }}/images/checkmark.png">
+            <img src="{{ site.data.global.url }}/images/check-circle-outline.svg">
           </div>
           <div class="comment-content">
             <h1>

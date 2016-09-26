@@ -1,21 +1,23 @@
 {% comment %}
 
   Tripwire button
-  to use this add in the post front matter:
+  to use this add it to the post front matter:
 
   signup: storyboard-layout-tripwire (name of file without `.html`)
 
 {% endcomment %}
+<a href="{{ page.purchase-link }}" target="_blank">
 
-<!-- button -->
-<div class="btn promo-btn">
+  <div class="btn promo-btn">
 
-  <h2>
-  {% if page.button-text %}
-    {{ page.button-text }}
-  {% else %}
-    Click to download
-  {% endif %}
-  </h2>
+    <h2>
+      {% if page.button-text %}
+      {{ page.button-text }}
+      {% else %}
+      Click to download
+      {% endif %}
+    </h2>
 
-</div><!-- /button -->
+  </div>
+
+</a>
