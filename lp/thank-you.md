@@ -1,6 +1,6 @@
 ---
 layout: page
-alert: 'IMPORTANT: Your "Beginners Children's Book Making Tool List" is on its way! (Please allow 10-15 minutes for delivery). Get help implementing your book ideas, read the page below.'
+alert: [IMPORTANT: Your "Beginners Children's Book Making Tool List" is on its way! (Please allow 10-15 minutes for delivery). Get help implementing your book ideas, read the page below.]
 title: THE CONTENT ENGINE
 sub-title: A Duplicatable System To Quickly Crank Out Share-Worthy, Clickable Blog Content That Gets You Traffic And Converts That Traffic Into Sales
 layout-class: thank-you-page
