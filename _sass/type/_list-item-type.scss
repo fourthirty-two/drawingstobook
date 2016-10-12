@@ -1,0 +1,24 @@
+ol, ul {
+  display: block;
+  @include margin(1em 0 2em);
+  padding-left: 40px;
+
+  li {
+    margin-bottom: .5em;
+  }
+
+}
+
+ol {
+  list-style-type: decimal;
+
+  // numbers didn't give enough space before the text for me
+  li {
+    padding-left: 10px;
+  }
+
+}
+
+ul {
+  list-style-type: disc;
+}
