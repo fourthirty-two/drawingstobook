@@ -4,6 +4,11 @@
   to use this add in the post front matter:
 
   signup: tool-list-download (or whatever other one you create)
+  **NOTE:** name of file without `.html`
+
+  CDN for simplegoods `embed.js` is in `_include/simple-goods-cdn.html` which is
+  included in the `default.html` layout template, so it will be added to every
+  page. No need to put it in the embeds anymore.
 
 {% endcomment %}
 
@@ -11,7 +16,6 @@
 <div class="big-btn">
 
   <!-- button -->
-  <script type="text/javascript" src="https://app-cdn.simplegoods.co/assets/external/embed.js"></script>
   <a href="https://app.simplegoods.co/i/MQJXZSQY" class="btn-trigger">
     {% if page.button-text %}
     {{ page.button-text }}
