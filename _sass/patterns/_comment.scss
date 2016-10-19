@@ -29,6 +29,17 @@
   .comment-image {
     padding-right: $comment-gutter;
 
+    // altered for theenks pages
+    &.theenks {
+      margin-right: 1.4em;
+      background: #1565c0;
+      border-radius: 50%;
+      float: left;
+      height: 3em;
+      padding: 0.75em;
+      width: 3em;
+    }
+
     > img {
       display: block;
       height: auto;
@@ -62,3 +73,5 @@
     }
   }
 }
+
+// theenks page icon styles
