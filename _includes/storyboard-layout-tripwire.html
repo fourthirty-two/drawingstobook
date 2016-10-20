@@ -3,7 +3,12 @@
   Tripwire button
   to use this add it to the post front matter:
 
-  signup: storyboard-layout-tripwire (name of file without `.html`)
+  signup: storyboard-layout-tripwire (or whatever other one you create)
+  **NOTE:** name of file without `.html`
+
+  CDN for simplegoods `embed.js` is in `_include/simple-goods-cdn.html` which is
+  included in the `default.html` layout template, so it will be added to every
+  page. No need to put it in the embeds anymore.
 
 {% endcomment %}
 <a href="{{ page.purchase-link }}" target="_blank">
