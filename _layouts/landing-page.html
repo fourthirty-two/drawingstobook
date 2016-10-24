@@ -48,7 +48,7 @@ layout: default
           {{ page.sub-title }}
         </h2>
 
-        {% if page.signup == "tool-list-download" %}
+        {% if page.signup contains "tool-list-download" %}
         {% for details in site.data.details %}
 
         <div class="comment">
