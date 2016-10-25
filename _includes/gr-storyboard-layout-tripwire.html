@@ -1,0 +1,25 @@
+{% comment %}
+
+  Tripwire button
+  to use this add it to the post front matter:
+
+  signup: sg-storyboard-layout-tripwire (name of file without `.html`)
+  *Note* this one is for `simplegoods.co` cart
+
+{% endcomment %}
+<script src="https://gumroad.com/js/gumroad.js"></script>
+<a href="https://gum.co/rYRof">
+
+  <div class="btn promo-btn">
+
+    <h2>
+      {% if page.button-text %}
+      {{ page.button-text }}
+      {% else %}
+      Click to download
+      {% endif %}
+    </h2>
+
+  </div>
+
+</a>
