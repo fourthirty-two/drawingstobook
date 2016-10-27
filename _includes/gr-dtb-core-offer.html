@@ -1,0 +1,25 @@
+{% comment %}
+
+  Core offer button
+  to use this add it to the post front matter:
+
+  signup: gr-dtb-core-offer (name of file without `.html`)
+  *Note* this one is for `gumroad` cart
+
+{% endcomment %}
+<script src="https://gumroad.com/js/gumroad.js"></script>
+<a href="{{ page.purchase-link }}?wanted=true" target="_blank" data-gumroad-single-product="true">
+
+  <div class="btn promo-btn">
+
+    <h2>
+      {% if page.button-text %}
+      {{ page.button-text }}
+      {% else %}
+      Click to download
+      {% endif %}
+    </h2>
+
+  </div>
+
+</a>
