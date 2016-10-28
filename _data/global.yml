@@ -2,7 +2,8 @@
 title: "Drawings To Book"
 description: "Create a children's book"
 url: "" # the base hostname & protocol for your site
-footer_text: "This text is footer text. Footer text goes here."
+footer_text: "Tips for making your own children's books."
+ga_trackingid: "UA-327863-9"
 
 # Admin Settings
 admin_name: "Tom Ray"
