@@ -1,9 +1,18 @@
 ---
 layout: post
-Title: On this day December 2
+title: On this day December 2
+image: https://upload.wikimedia.org/wikipedia/commons/e/e7/Principal_Cast_in_Casablanca_Trailer_crop.jpg
+image_attribution: By Trailer screenshot (Casablanca trailer) [Public domain], via Wikimedia Commons
+author: Tom Ray
 ---
 I guess this day is significant in the movie Casablanca.
 
+<div class="video">
+  <div class="video-wrapper" style="padding-bottom: 75.25%;">
+      <iframe src="http://www.imdb.com/videoembed/vi6095897" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
 >> In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.
 
-<iframe src="http://www.imdb.com/videoembed/vi6095897" allowfullscreen width="854" height="400"></iframe>
+In World War II Casablanca, Rick Blaine, exiled American and former freedom fighter, runs the most popular nightspot in town. The cynical lone wolf Blaine comes into the possession of two valuable letters of transit. When Nazi Major Strasser arrives in Casablanca, the sycophantic police Captain Renault does what he can to please him, including detaining a Czechoslovak underground leader Victor Laszlo. Much to Rick's surprise, Lazslo arrives with Ilsa, Rick's one time love. Rick is very bitter towards Ilsa, who ran out on him in Paris, but when he learns she had good reason to, they plan to run off together again using the letters of transit. Well, that was their original plan....

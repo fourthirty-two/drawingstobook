@@ -1,0 +1,8 @@
+// General image settings
+
+// Blog list images
+.blog-list-content-image img {
+  @include padding(0 2em 1em 0);
+  float: left;
+  display: inline;
+}

@@ -22,3 +22,12 @@ ol {
 ul {
   list-style-type: disc;
 }
+
+// where not to use list items
+.blog-list-items {
+
+  ul li {
+    list-style-type: none;
+  }
+
+}
