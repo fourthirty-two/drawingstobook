@@ -1,19 +1,15 @@
 ---
 layout: post
-title: On this day, December 2nd
-description: How this date is important in the movie Casablanca.
-image: https://cdn-images-1.medium.com/max/1000/1*-hz9Wgo57KM0ro6uK--Ypw.jpeg
-image_attribution: By Trailer screenshot (Casablanca trailer) [Public domain], via Wikimedia Commons
+title: Now this is a second video post
+description: Here is a video post to test.
+#image: https://cdn-images-1.medium.com/max/1000/1*GGizfp-OKQnhOUDJpBUCLw.jpeg
+#image_attribution: By Trailer screenshot (Casablanca trailer) [Public domain], via Wikimedia Commons
+video-id: "8ItNE_DX6Cc"
 author: Tom Ray
 category: blog
 ---
-I guess this day is significant in the movie Casablanca.
 
-<div class="video">
-  <div class="video-wrapper" style="padding-bottom: 75.25%;">
-      <iframe src="http://www.imdb.com/videoembed/vi6095897" frameborder="0" allowfullscreen></iframe>
-  </div>
-</div>
+I guess this day is significant in the movie Casablanca.
 
 >> In Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications.
 

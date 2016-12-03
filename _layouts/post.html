@@ -6,31 +6,42 @@ layout: default
 <main>
 
   <section>
-    {% if page.image %}
-    <div class="image-gradient-dynamic">
-      <img src="{{ page.image }}" alt="{{ page.image_attribution }}">
-      <div class="overlay"></div>
-      <div class="copy">
-        <h1>{{ page.title }}</h1>
-      </div>
-    </div>
-    <p><small>{{ page.image_attribution }}</small></p>
-    {% endif %}
+
     <header class="post-header">
+
+      <p class="type">{{ page.category }}</p>
       <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-      <p class="post-meta">
+      <h2 class="post-description">{{ page.description }}</h2>
+      <div class="post-meta">
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-          {{ page.date | date: "%b %-d, %Y" }}
+          <p class="date">{{ page.date | date: "%b %-d, %Y" }}</p>
         </time>
-        {% if page.author %} •
+        {% if page.author %}
+        <hr>
         <span itemprop="author" itemscope itemtype="http://schema.org/Person">
           <span itemprop="name">
-            {{ page.author }}
+            <p class="author">{{ page.author }}</p>
           </span>
         </span>
         {% endif %}
-      </p>
+      </div>
+
     </header>
+
+    {% if page.image %}
+    <div class="image-gradient-dynamic">
+      <img src="{{ page.image }}" alt="{{ page.image_attribution }}">
+    </div>
+    <p><small>{{ page.image_attribution }}</small></p>
+    {% endif %}
+
+    {% if page.video-id %}
+    <div class="video">
+      <div class="video-wrapper">
+        <iframe src="http://www.youtube.com/embed/{{ page.video-id }}" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    {% endif %}
 
     {{ content }}
 
