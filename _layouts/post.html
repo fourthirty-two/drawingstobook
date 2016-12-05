@@ -33,8 +33,10 @@ layout: default
     {% if page.image %}
     <div class="image-gradient-dynamic">
       <img src="{{ page.image }}" alt="{{ page.image_attribution }}">
+      <p class="caption">
+        <small>{{ page.image_attribution }}</small>
+      </p>
     </div>
-    <p><small>{{ page.image_attribution }}</small></p>
     {% endif %}
 
     {% if page.video-id %}
