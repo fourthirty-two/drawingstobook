@@ -3,9 +3,47 @@ layout: default
 ---
 {% include header-bar-branded.html %}
 
+{% include sub-navigation.html %}
+
 <main>
 
   <section>
+
+    <header class="post-header">
+
+      <p class="type">{{ page.category }}</p>
+      <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+      <h2 class="post-description">{{ page.description }}</h2>
+      <div class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          <p class="date">{{ page.date | date: "%b %-d, %Y" }}</p>
+        </time>
+        {% if page.author %}
+        <hr>
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">
+            <p class="author">{{ page.author }}</p>
+          </span>
+        </span>
+        {% endif %}
+      </div>
+
+    </header>
+
+    {% if page.image %}
+    <div class="image-gradient-dynamic">
+      <img src="{{ page.image }}" alt="{{ page.image_attribution }}">
+    </div>
+    <p><small>{{ page.image_attribution }}</small></p>
+    {% endif %}
+
+    {% if page.video-id %}
+    <div class="video">
+      <div class="video-wrapper">
+        <iframe src="http://www.youtube.com/embed/{{ page.video-id }}" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    {% endif %}
 
     {{ content }}
 

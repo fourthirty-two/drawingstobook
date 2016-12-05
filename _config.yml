@@ -43,7 +43,7 @@ baseurl: "" # does not include hostname
 show_dir_listing: false
 
 # Outputting
-permalink:     date
+permalink:     pretty
 paginate_path: /page:num
 timezone:      null
 

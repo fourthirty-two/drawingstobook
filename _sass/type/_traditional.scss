@@ -70,6 +70,11 @@
       font-size: 1.5em;
     }
   }
+  // Style specific adjustments
+  .blog-list-content h2 {
+    font-weight: 600;
+    color: $black;
+  }
 
   code {
     background: #F7F7F7;
