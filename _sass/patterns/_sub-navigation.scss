@@ -29,8 +29,9 @@ header.navigation {
   .navigation-wrapper {
     @include clearfix;
     position: relative;
-    max-width: 800px;
     @include margin(0 auto);
+    @include padding(null 15px);
+    max-width: 800px;
     z-index: 9999;
   }
 
