@@ -10,8 +10,10 @@
 
   ul li {
     @include outer-container;
-    list-style-type: none;
     margin-bottom: 2em;
+    max-height: 260px; // keep blog-list-items the same no matter the image size
+    list-style-type: none;
+    overflow: hidden;
   }
 
   // Blog post list page images
