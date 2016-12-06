@@ -6,7 +6,6 @@ image: https://cdn-images-1.medium.com/max/1000/1*-hz9Wgo57KM0ro6uK--Ypw.jpeg
 image_attribution: By Trailer screenshot (Casablanca trailer) [Public domain], via Wikimedia Commons
 author: Tom Ray
 category: blog
-navigation: Yo
 ---
 I guess this day is significant in the movie Casablanca.
 
