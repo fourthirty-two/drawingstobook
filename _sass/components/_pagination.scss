@@ -23,6 +23,11 @@
     li {
       display: inline;
       list-style: none;
+
+      span {
+        padding: ($base-spacing / 4) ($gutter / 2);
+      }
+
     }
 
     ul li {

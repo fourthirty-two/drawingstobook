@@ -64,9 +64,7 @@ category: blog-list
       {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
       {% else %}
-      <a href="javascript:void(0)">
-        <span class="previous">Previous</span>
-      </a>
+      <span class="previous">Previous</span>
       {% endif %}
 
     </li>
@@ -84,9 +82,7 @@ category: blog-list
       {% if paginator.next_page %}
       <a href="{{ paginator.next_page_path }}" class="next">Next</a>
       {% else %}
-      <a href="javascript:void(0)">
-        <span class="next ">Next</span>
-      </a>
+      <span class="next ">Next</span>
       {% endif %}
 
     </li>
