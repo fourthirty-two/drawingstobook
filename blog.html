@@ -8,21 +8,35 @@ permalink: /blog/
   <ul>
     {% for post in site.posts %}
     <li class="blog-list-item">
-      {% if post.image %}
       <div class="blog-list-content-image">
         <a href="{{ post.url }}">
-          <img src="{{ post.image }}" alt="{{ post.title }}">
-        </a>
-      </div>
-      {% endif %}
 
-      {% if post.video-id %}
-      <div class="blog-list-content-image">
-        <a href="{{ post.url }}">
+          {% comment %}
+
+            Image selctions for blog summary.
+            **You can only use one**
+
+            1. Story image (landscape layout needed)
+            2. YouTube Video Still (uses image supplied by video, automatic)
+            3. Alternate image (when either scenario above won't work)
+
+          {% endcomment %}
+
+          {% if post.image %}
+          <img src="{{ post.image }}" alt="{{ post.title }}">
+          {% endif %}
+
+          {% if post.video-id %}
           <img src="https://img.youtube.com/vi/{{ post.video-id }}/maxresdefault.jpg" alt="{{ post.title }}">
+          {% endif %}
+
+          {% if post.image_preview %}
+          <img src="{{ post.image_preview }}" alt="{{ post.title }}">
+          {% endif %}
+
         </a>
       </div>
-      {% endif %}
+
       <div class="blog-list-content">
         <a href="{{ post.url }}">
           <h2>
