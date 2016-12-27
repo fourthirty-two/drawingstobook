@@ -20,3 +20,4 @@ gem "jekyll", "3.3.1"
 #   gem "jekyll-github-metadata", "~> 1.0"
 # end
 gem 'jekyll-redirect-from'
+gem 'jekyll-paginate'
