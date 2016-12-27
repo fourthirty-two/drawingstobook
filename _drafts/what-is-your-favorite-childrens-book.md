@@ -1,7 +1,7 @@
 ---
 layout: post
-title: What goes into writing a successful children's book?
-description: Thoughts about story and illustrations.
+title: What is your favorite children's book?
+description: Is it the artwork, is it the story, is it the subject? What made it your favorite story.
 # image: image location for top of the page. Should be landscape sized.
 # image_attribution: cc-by artist
 # image_preview: **Only displays on blog-list page** use only when `image` and `video-id` images won't work. example: other video source besides YouTube is used.
@@ -9,4 +9,4 @@ description: Thoughts about story and illustrations.
 author: Tom Ray
 category: blog # right now this puts it in the blog section, more can be created.
 ---
-reference: https://www.quora.com/What-goes-into-writing-a-successful-childrens-book
+Reference: https://www.quora.com/What-is-your-favorite-childrens-book

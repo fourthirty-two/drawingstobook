@@ -1,7 +1,7 @@
 ---
 layout: post
-title: What goes into writing a successful children's book?
-description: Thoughts about story and illustrations.
+title: Which children's book changed your life?
+description: You've read many over the years, but sometimes one speaks to you, and you still remember it.
 # image: image location for top of the page. Should be landscape sized.
 # image_attribution: cc-by artist
 # image_preview: **Only displays on blog-list page** use only when `image` and `video-id` images won't work. example: other video source besides YouTube is used.
@@ -9,4 +9,4 @@ description: Thoughts about story and illustrations.
 author: Tom Ray
 category: blog # right now this puts it in the blog section, more can be created.
 ---
-reference: https://www.quora.com/What-goes-into-writing-a-successful-childrens-book
+Reference: https://www.quora.com/Which-childrens-book-changed-your-life
