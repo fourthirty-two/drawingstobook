@@ -46,6 +46,11 @@
     padding: 0.1em 0;
     text-align: left;
     text-transform: uppercase;
+
+    a {
+      color: $dark-gray;
+    }
+
   }
 
   h1 {

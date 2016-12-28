@@ -11,22 +11,16 @@ layout: default
 
     <header class="post-header">
 
-      <p class="type">{{ page.category }}</p>
+      <p class="type">
+        <a href="{{ site.data.global.url }}/{{ page.category }}">
+          {{ page.category }}
+        </a>
+      </p>
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        <p class="date">{{ page.date | date: "%b %-d, %Y" }}</p>
+      </time>
       <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
       <h2 class="post-description">{{ page.description }}</h2>
-      <div class="post-meta">
-        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-          <p class="date">{{ page.date | date: "%b %-d, %Y" }}</p>
-        </time>
-        {% if page.author %}
-        <hr>
-        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <span itemprop="name">
-            <p class="author">{{ page.author }}</p>
-          </span>
-        </span>
-        {% endif %}
-      </div>
 
     </header>
 
@@ -48,6 +42,17 @@ layout: default
     {% endif %}
 
     {{ content }}
+
+    <div class="post-meta">
+      {% if page.author %}
+      <hr>
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">
+          <p class="author">{{ page.author }}</p>
+        </span>
+      </span>
+      {% endif %}
+    </div>
 
   </section>
 
