@@ -25,7 +25,9 @@ unpublished: false
 
 # Plugins
 whitelist: []
-gems:      []
+gems:
+  - jekyll-redirect-from
+  - jekyll-paginate
 
 # Conversion
 markdown:    kramdown
@@ -42,9 +44,10 @@ baseurl: "" # does not include hostname
 show_dir_listing: false
 
 # Outputting
-permalink:     date
-paginate_path: /page:num
+permalink:     pretty
+paginate_path: /blog/page:num
 timezone:      null
+paginate: 3
 
 quiet:    false
 verbose:  false

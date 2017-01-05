@@ -29,6 +29,12 @@
   p {
     color: $base-font-color;
     line-height: $base-line-height;
+    font-size: 18px;
+
+    @include media($medium-screen) {
+      font-size: 21px;
+    }
+
   }
 
   a {
@@ -46,6 +52,11 @@
     padding: 0.1em 0;
     text-align: left;
     text-transform: uppercase;
+
+    a {
+      color: $dark-gray;
+    }
+
   }
 
   h1 {
@@ -69,6 +80,11 @@
     @include media($medium-screen) {
       font-size: 1.5em;
     }
+  }
+  // Style specific adjustments
+  .blog-list-content h2 {
+    font-weight: 600;
+    color: $black;
   }
 
   code {

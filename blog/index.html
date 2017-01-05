@@ -1,0 +1,91 @@
+---
+layout: blog-list
+category: blog-list
+---
+<div class="blog-list-items">
+
+  <ul>
+    {% for post in paginator.posts %}
+    <li class="blog-list-item">
+      <div class="blog-list-content-image">
+        <a href="{{ post.url }}">
+
+          {% comment %}
+
+            Image selctions for blog summary.
+            **You can only use one**
+
+            1. Story image (landscape layout needed)
+            2. YouTube Video Still (uses image supplied by video, automatic)
+            3. Alternate image (when either scenario above won't work)
+
+          {% endcomment %}
+
+          {% if post.image %}
+          <img src="{{ post.image }}" alt="{{ post.title }}"/>
+          {% endif %}
+
+          {% if post.video-id %}
+          <img src="https://img.youtube.com/vi/{{ post.video-id }}/maxresdefault.jpg" alt="{{ post.title }}"/>
+          {% endif %}
+
+          {% if post.image_preview %}
+          <img src="{{ post.image_preview }}" alt="{{ post.title }}"/>
+          {% endif %}
+
+        </a>
+      </div>
+
+      <div class="blog-list-content">
+        <a href="{{ post.url }}">
+          <h2>
+            {{ post.title }}
+          </h2>
+          <p class="blog-list-description">
+            {{ post.description | strip_html }}
+          </p>
+        </a>
+        <p>
+          <a href="{{ post.url }}" class="read-more">Read More <span>&rsaquo;</span></a>
+        </p>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+
+</div>
+
+<!-- Pagination links -->
+<div class="pagination">
+  <ul>
+
+    <li class="page-prev">
+
+      {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+      {% else %}
+      <span class="previous">Previous</span>
+      {% endif %}
+
+    </li>
+
+    <li>
+      <ul>
+        <li>
+          <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+        </li>
+      </ul>
+    </li>
+
+    <li class="page-next">
+
+      {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+      {% else %}
+      <span class="next ">Next</span>
+      {% endif %}
+
+    </li>
+
+  </ul>
+</div>

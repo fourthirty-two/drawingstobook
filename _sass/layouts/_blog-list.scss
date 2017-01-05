@@ -1,0 +1,40 @@
+// Blog list layout page
+
+// Blog posts list text block
+.blog-list-items {
+
+
+  ul {
+    padding-left: 0px;
+  }
+
+  ul li {
+    @include outer-container;
+    margin-bottom: 2em;
+    list-style-type: none;
+  }
+
+  // Blog post list page images
+  .blog-list-content-image {
+    @include span-columns(8);
+    // keep blog-list-items the same no matter the image size
+    max-height: 260px;
+    overflow: hidden;
+
+    @include media($mobile-max-width) {
+      @include span-columns(12);
+    }
+
+  }
+
+  // Blog post list title and description
+  .blog-list-content {
+    @include span-columns(4);
+
+    @include media($mobile-max-width) {
+      @include span-columns(12);
+    }
+
+  }
+
+}

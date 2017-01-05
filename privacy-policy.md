@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Privacy Policy
+redirect_from:
+  - /privey/
 permalink: /privacy-policy/
 ---
 PRIVACY STATEMENT

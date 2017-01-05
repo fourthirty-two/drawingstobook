@@ -3,6 +3,11 @@
 ---
 @charset "utf-8";
 
+// font-stack bug fix for bitters when it updates it resets the font variable
+// moving the change outside of it should keep it from breaking when updated.
+@import "../bower_components/bourbon/app/assets/stylesheets/addons/_font-stacks.scss";
+$font-stack-system: $helvetica;
+
 // Design imports
 @import
   "../bower_components/bourbon/app/assets/stylesheets/bourbon.scss",

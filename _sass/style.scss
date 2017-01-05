@@ -1,6 +1,7 @@
 @import
   "variables",
   "patterns/centered-nav",
+  "patterns/sub-navigation",
   "patterns/footer",
   "patterns/hero-unit",
   "patterns/icon-bullet-points",
@@ -12,9 +13,14 @@
   "components/responsive-utilities",
   "components/buttons",
   "components/alert",
+  "components/image-gradient",
+  "components/images",
+  "components/pagination",
   "type/traditional",
   "type/list-item-type",
-  "type/blockquote"
+  "type/blockquote",
+  "type/captions",
+  "layouts/blog-list"
 ;
 
 // body reset
