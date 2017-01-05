@@ -29,6 +29,12 @@
   p {
     color: $base-font-color;
     line-height: $base-line-height;
+    font-size: 18px;
+
+    @include media($medium-screen) {
+      font-size: 21px;
+    }
+
   }
 
   a {
