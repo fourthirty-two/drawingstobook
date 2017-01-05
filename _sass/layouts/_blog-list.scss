@@ -35,6 +35,14 @@
       @include span-columns(12);
     }
 
+    p {
+      font-size: $text-readable-small;
+    }
+
+    a.read-more span {
+      font-size: $text-readable-small;
+    }
+
   }
 
 }
