@@ -22,3 +22,15 @@ ol {
 ul {
   list-style-type: disc;
 }
+
+// List items for blog posts
+.category-blog main section {
+  ul {
+    font-size: $text-readable-small;
+
+    @include media($medium-screen) {
+      font-size: $text-readable-large;
+    }
+
+  }
+}
