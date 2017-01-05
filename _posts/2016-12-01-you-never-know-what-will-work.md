@@ -36,11 +36,19 @@ Casablanca went on to win three Academy Awards
 
 and gradually its reputation grew.
 
-Its lead characters, memorable lines, and pervasive theme song have all become iconic and the film consistently ranks near the top of lists of the greatest films in history.
+It's lead characters, memorable lines, and pervasive theme song have all become iconic and the film consistently ranks near the top of lists of the greatest films in history.
 
-My point is this, if you have an idea for something you want to create or do, you should. It's real easy to think I'm just another person making a book or drawing, there are so many others out there doing the same thing. Why should I bother or who will care?
+My point is this -- if you have something you want to create, you should.
 
-First of all you will care because it means something to you. And second, you don't know who will care if it's never made.
+You may think to yourself --
+
+**_"I'm just another person making a book or drawing. There are so many others out there doing the same thing, why should I bother? Who will care?"_**
+
+First of all, _YOU will care_.
+
+It means something to you. No one should use other people's success as an excuse to keep from being creative. Don't think of them, think of what you want to become by making something that interests you.
+
+And second, you don't know who will care if it's never made.
 
 We have the ability to reach so many people these days, why not try? Or just do it for yourself.
 
