@@ -25,6 +25,10 @@
       @include span-columns(12);
     }
 
+    img {
+      width: 100%;
+    }
+
   }
 
   // Blog post list title and description
