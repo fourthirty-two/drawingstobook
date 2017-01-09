@@ -5,17 +5,12 @@ description: The movie Casablanca was never expected to be significant.
 #image:
 #image_title:
 #image_attribution:
-image_preview: https://images-na.ssl-images-amazon.com/images/M/MV5BNzU0NDI1NjA1MF5BMl5BanBnXkFtZTcwMzM1MTgyMw@@._V1_.jpg
+video-id: "BkL9l7qovsE" # YouTube video used for top of the page, use url ID only. This embeds responsive video and video thumbnail for preview.
 author: Tom Ray
 category: blog
 ---
-<div class="video">
-  <div class="video-wrapper" style="padding-bottom: 75.25%;">
-      <iframe src="http://www.imdb.com/videoembed/vi6095897" frameborder="0" allowfullscreen></iframe>
-  </div>
-</div>
 <p class="caption">
-  <small>Available on <a href="http://amzn.to/2iAwEGk">Amazon video</a></small>
+  <small>Available on <a href="https://amzn.to/2iAwEGk">Amazon video</a></small>
 </p>
 
 > _Casablanca, Morocco in December 1941, a cynical American expatriate meets a former lover, with unforeseen complications._
