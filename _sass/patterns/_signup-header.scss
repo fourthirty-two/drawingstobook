@@ -1,0 +1,84 @@
+// Design for signup header that appears on blog pages.
+// Uses the same styles as `signup-header-unit.scss`
+.signup-header {
+  $large-screen: 50em !default;
+
+  background: lightcoral;
+  min-height: 5em;
+  margin-bottom: 2em;
+  @include padding(1em 2em);
+
+  @include media($large-screen) {
+    background-position: left;
+    background-size: cover;
+  }
+
+  .signup-header-content {
+    @include outer-container(800px);
+
+    .signup-header-description {
+      p {
+        font-size: 16px;
+        font-style: italic;
+        color: #fff;
+      }
+    }
+
+    .signup-header-submit {
+      p {
+        color: #343434;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .btn {
+        margin: 0px;
+        padding: 1em 4em;
+        color: #282828;
+        background: gold;
+        border: 2px solid #282828;
+      }
+    }
+
+
+    // signup and description on desktops
+    @include media($large-screen) {
+
+      .signup-header-description {
+        @include span-columns(5);
+        position: relative;
+
+        .signup-header-logo {
+          //@include span-columns(2 of 5);
+          @include transform(rotate(-4deg));
+          position: absolute;
+          top: -15px;
+          left: -310px;
+          width: 300px;
+          box-shadow: 5px 5px rgba(0, 0, 0, 0.10);
+        }
+
+        p {
+          //@include span-columns(3 of 5);
+          text-align: right;
+        }
+
+      }
+
+      .signup-header-submit {
+        @include span-columns(7);
+
+        p {
+
+        }
+
+      }
+
+    }
+
+  }
+
+  .signup-header-logo {
+    margin: auto;
+  }
+}
