@@ -26,9 +26,8 @@
 
     .signup-header-submit {
       p {
-        color: #343434;
+        color: #fff;
         font-size: 16px;
-        font-weight: bold;
         margin-bottom: 10px;
       }
       .btn {
@@ -51,9 +50,9 @@
         .signup-header-logo {
           //@include span-columns(2 of 5);
           @include transform(rotate(-4deg));
-          position: absolute;
-          top: -15px;
-          left: -310px;
+          // position: absolute;
+          // top: -15px;
+          // left: -310px;
           width: 300px;
           box-shadow: 5px 5px rgba(0, 0, 0, 0.10);
         }
