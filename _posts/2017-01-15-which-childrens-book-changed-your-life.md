@@ -54,4 +54,10 @@ It was banned in many countries, including in Spain (where it remained banned un
 What could your own book mean to your kids?
 ===========================================
 
-With these few examples of my own, think about how making a book of your own could help expand the the mindset of your children. They may look back at this when they are older and think... that's the time that meant the most to me.
+With these few examples of mine, think about how making a book of your own could help expand the the mindset of your children. They may look back at this when they are older and think... that's the time that meant the most to me.
+
+What books would you say meant the most to you?
+
+Leave a comment on the Facebook post below.
+
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdrawingstobook%2Fposts%2F615296451996888&width=500" width="500" height="551" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
