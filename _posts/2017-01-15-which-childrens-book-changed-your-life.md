@@ -54,7 +54,7 @@ It was banned in many countries, including in Spain (where it remained banned un
 What could your own book mean to your kids?
 ===========================================
 
-These are a few of my examples. Think about how making a book of your own could help expand the the mindset of your children. They may look back at this when they are older and think... that's the time that meant the most to me.
+These are a few of my examples. Think about how making a book of your own could help expand the the mindset of your children. They may look back at this when they are older and think to themselves, "that's what meant the most to me".
 
 What books would you say meant the most to you?
 
