@@ -8,7 +8,7 @@ description: Every little thing helps inspire you to make your book.
 video-id: "3gdsj3YuCGI" # YouTube video used for top of the page, use url ID only. This embeds responsive video and video thumbnail for preview.
 author: Tom Ray
 category: video # right now this puts it in the blog section, more can be created.
-tags: mindset, motivation
+tags: mindset, strategy,
 ---
 I wanted to talk to
 you a little bit today about moving
