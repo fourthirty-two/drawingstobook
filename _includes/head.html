@@ -38,6 +38,9 @@
     em: 'insert_email_variable,'
     });
     fbq('track', 'PageView');
+    {% if page.url contains 'noty' %}
+    fbq('track', 'Purchase', {value: '0.00', currency:'USD'});
+    {% endif %}
     </script>
     <noscript><img height="1" width="1" style="display:none"
     src="https://www.facebook.com/tr?id=1233456233377241&ev=PageView&noscript=1"
