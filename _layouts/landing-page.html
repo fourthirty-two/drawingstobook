@@ -90,6 +90,29 @@ layout: default
       </h2>
       {% endif %}
 
+      {% comment %}
+        for registration pages
+      {% endcomment %}
+      {% if page.category == "register" %}
+
+      <main>
+        <section>
+
+          <div class="video">
+            <div class="video-wrapper">
+              <iframe type="text/html" frameborder="0" width="1280" height="720" src="https://www.youtube.com/embed/{{page.video-id}}?autoplay=1&iv_load_policy=3&modestbranding=1&rel=0&showinfo=0&vq=hd720" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          {% if page.signup %}
+          {% include {{ page.signup }}.html %}
+          {% endif %}
+
+        </section>
+      </main>
+
+      {% endif %}
+
       {% if page.signup %}
       {% include {{ page.signup }}.html %}
       {% endif %}
@@ -102,19 +125,7 @@ layout: default
 
     {% endif %}
 
-    {% comment %}
-      for registration pages
-    {% endcomment %}
-    {% if page.category == "register" %}
 
-    <div class="big-btn">
-      <a href="#">
-        Dude
-      </a>
-    </div>
-
-
-    {% endif %}
 
   </div>
 
