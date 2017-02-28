@@ -2,7 +2,7 @@
 layout: registration-page
 title: Sign Up For The Children's Book Training Course
 sub-title: Learn how to make your first children's book using your phone
-#layout-class: hero-signup
+layout-class: register-page
 #banner-color: "darkgray"
 #image: images/fb-dtb-leadmag-ad-1.png
 video-id: _VidV7C35Ew
