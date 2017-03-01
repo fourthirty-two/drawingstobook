@@ -1,6 +1,6 @@
 ---
 layout: registration-page
-title: OK, I've got you down.
+title: OK, I've got you registered.
 #sub-title: Please watch for additional emails from me over the next few days for further information. See you then!
 layout-class: register-page
 #banner-color: "darkgray"
