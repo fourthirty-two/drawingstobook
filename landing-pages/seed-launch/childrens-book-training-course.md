@@ -7,7 +7,7 @@ layout-class: register-page
 #image: images/fb-dtb-leadmag-ad-1.png
 video-id: _VidV7C35Ew
 signup: gr-tool-list-download
-purchase-link: https://gum.co/aUdPq
+purchase-link: https://gum.co/Lxyxv
 button-text: Register Now
 category: register
 permalink: /childrens-book-training-course/ # alt headline
