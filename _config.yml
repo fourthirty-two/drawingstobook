@@ -47,7 +47,7 @@ show_dir_listing: false
 permalink:     pretty
 paginate_path: /blog/page:num
 timezone:      null
-paginate: 3
+paginate: 5
 
 quiet:    false
 verbose:  false
