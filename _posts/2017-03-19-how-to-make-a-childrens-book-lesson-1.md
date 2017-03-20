@@ -16,7 +16,7 @@ I used this method to make my own book <a href="http://amzn.to/2nqdQPT" target="
 
 # In this lesson...
 
-This first video covers way to come up with ideas for stories and artwork. One example is a simple method that involves _"scribble drawing"_. A way to visualize your pages, story and drawings.
+This first video covers ways to come up with ideas for stories and artwork. One example is a simple method that involves _"scribble drawing"_. A way to visualize your pages, story and drawings.
 
 # Table of contents
 
