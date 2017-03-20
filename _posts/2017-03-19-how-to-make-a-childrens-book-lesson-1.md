@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to make a children's book - Lesson 1
-description: An intro to design and coming up with ideas. Lesson 1 - Intro to design
+description: Lesson 1 - An intro to design and coming up with ideas.
 # image: image location for top of the page. Should be landscape sized. ex: http://placehold.it/506x285/E8117F/ffffff?text=image
 # image_attribution: cc-by artist
 # image_preview: **Only displays on blog-list page** use only when `image` and `video-id` images won't work. example: other video source besides YouTube is used.
