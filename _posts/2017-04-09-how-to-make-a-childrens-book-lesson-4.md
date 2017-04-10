@@ -10,22 +10,22 @@ author: Tom Ray
 category: blog # right now this puts it in the blog section, more can be created.
 tags: lessons, video, how-to, mobile,
 ---
-This series is an introduction to making a children's book. My goal is to show how you can create your first book using only a pen, paper and your mobile phone.
+This series is an introduction to making a children's book. My goal is to show how I created a book using only a pen, paper and your mobile phone.
 
-I used this method to make my own book <a href="http://amzn.to/2nqdQPT" target="_blank">that I was able to add to the Amazon book store</a>.
+After using this method  <a href="http://amzn.to/2nqdQPT" target="_blank">I was even able to add the book to the Amazon Kindle book store</a>.
 
 # In this lesson...
 
 This is fourth and final video in the series. Laying out the pages, adding the text and exporting the finished book. All of this was done using my phone.
 
-I did this using the **Google Slides** app. It's free and available for iPhone and Android phones.
+I did this with the **Google Slides** app. It's free and available for iPhone and Android phones (you will need to create a google account if you don't already have one.)
 
 Learn more about Google Slides here - [https://www.google.com/slides/about/](https://www.google.com/slides/about/)
 
 > **Link:** <br>
-You can watch lesson 3 here - [_Scanning & coloring the artwork with my phone_](/blog/2017/04/02/how-to-make-a-childrens-book-lesson-3/) using the Autodesk SketchBook app.
+Previous Lesson - [_Scanning & coloring the artwork with my phone using the Autodesk SketchBook app_](/blog/2017/04/02/how-to-make-a-childrens-book-lesson-3/)
 
-**Just a reminder...** this isn't just for people who know how to draw or use Photoshop. This is about learning how to make a book. I think everyone should be able to do this and express themselves. Learn by doing and having fun!
+**Just a reminder...** this isn't just for people who know how to draw or use graphic software. This is about learning how to make a book. I think everyone should be able to do this and express themselves. Learn by doing and having fun!
 
 I hope this gives you the push you need to get started and make your own books to share with the world.
 
